@@ -1,9 +1,22 @@
+:root {
+    --color-default: #eb2f64;
+    --color-default-lighten: #FF3366;
+    --color-default-darken: #BA265D;
+}
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-size: 100%;
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*1rem = 10px;    (10px / 16px) = 62.5%;*/
 }
