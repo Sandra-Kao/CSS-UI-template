@@ -2,6 +2,9 @@
     --color-default: #eb2f64;
     --color-default-lighten: #FF3366;
     --color-default-darken: #BA265D;
+    --color-pink: pink;
+    --color-orange: orange;
+    --color-bule-lighten: skyblue;
 }
 
 * {
