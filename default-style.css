@@ -1,11 +1,19 @@
 :root {
-    --color-default: #eb2f64;
-    --color-default-lighten: #FF3366;
-    --color-default-darken: #BA265D;
+    /*COLOR*/
+    --color-default: #1b995e;
+    --color-default-lighten: #8ddba4;
+    --color-default-darken: #207020;
+    --color-gray: #c3c2c2;
+    --color-gray-lighten: #f7f7f7;
+    --color-gray-darken: #636363;
     --color-pink: pink;
     --color-orange: orange;
     --color-orange-lighten: #ffa36e;
     --color-bule-lighten: skyblue;
+    --color-white: #fff;
+    --color-white-opacity: #ffffff49;
+    --color-dark: #333;
+    --color-dark-opacity: #3339;
 }
 
 * {
@@ -26,7 +34,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.6;
     /*background-image: linear-gradient(to right bottom, var(--color-default-lighten), var(--color-default-darken));*/
